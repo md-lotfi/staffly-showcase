@@ -14,13 +14,16 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [ready, setReady] = useState(false);
   useEffect(() => {
     const saved = localStorage.getItem("staffly-language");
-    if (!search.lang && isLanguage(saved) && saved !== "en")
+    if (!search.lang && isLanguage(saved) && saved !== "en") {
       void navigate({ to: ".", search: { lang: saved }, replace: true });
-    setReady(true);
+    } else {
+      setReady(true);
+    }
   }, []);
   useEffect(() => {
     document.documentElement.lang = lang;
     document.documentElement.dir = getDirection(lang);
+    if (search.lang) setReady(true);
     if (ready) localStorage.setItem("staffly-language", lang);
   }, [lang, ready]);
   function setLanguage(next: Language) {

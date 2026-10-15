@@ -151,7 +151,7 @@ function Hero() {
             <span className="tiny-line" />
             {t.android}
           </span>
-          <Phone screen="profile" className="hero-phone-back" eager />
+          <Phone screen="checkpoint" className="hero-phone-back" eager />
           <Phone screen="attendance" className="hero-phone-front" eager />
           <div className="example-chip attendance-chip">
             <div className="chip-icon">

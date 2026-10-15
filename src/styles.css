@@ -57,6 +57,7 @@
   --shadow-chip: 0 8px 28px oklch(0.31 0.062 248 / 0.1);
   --motion: 220ms;
   --font-display: "Manrope Variable", sans-serif;
+  --space-unit: 4px;
 }
 @layer base {
   * {
@@ -72,7 +73,7 @@
     background: var(--card);
     color: var(--foreground);
     font-family: var(--font-sans);
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 1.75;
     -webkit-font-smoothing: antialiased;
     letter-spacing: 0;
