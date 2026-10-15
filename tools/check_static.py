@@ -94,6 +94,9 @@ def main():
             errors.append('Framework source remains: ' + name)
     if not (ROOT / '.nojekyll').is_file():
         errors.append('Missing .nojekyll')
+    cname = ROOT / 'CNAME'
+    if cname.exists() and cname.read_text().strip() != urlsplit(ORIGIN).hostname:
+        errors.append('CNAME must contain only the configured hostname, without merge conflict markers or extra lines')
     if errors:
         raise SystemExit('\n'.join(errors))
     print('PASS: 12 localized pages, local links/fragments/assets, fonts, metadata, sitemap and static-only structure.')
