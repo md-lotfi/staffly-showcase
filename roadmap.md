@@ -1,5 +1,12 @@
-# Staffly showcase
-- [x] Build translated showcase and legal-content notices using supplied assets.
-- [x] Verify feature selection, navigation, FAQ, language persistence and release rules.
-- [x] Check desktop, tablet, mobile, RTL, enlarged text and reduced motion.
-- [x] Identify owner-provided publication requirements: approved Privacy Policy and Subscription Terms are required before publication; Employee Access remains upcoming pending owner confirmation.
+# Staffly showcase status
+
+- [x] Replace the framework with repository-root static HTML/CSS/JavaScript.
+- [x] Provide fully rendered English, French and Arabic pages.
+- [x] Bundle original Staffly media and self-hosted fonts.
+- [x] Add Privacy Policy, Terms of Use and Pro Subscription Terms.
+- [x] Repair blocked-storage behavior, improve typography and complete localized metadata.
+- [ ] Publisher review of new/revised legal text and translations.
+- [ ] Publish normally to GitHub Pages and verify live URLs/404 behavior.
+- [ ] Mark Employee Access available only after its public app release is confirmed.
+
+See release-checks.md for actual verification results.

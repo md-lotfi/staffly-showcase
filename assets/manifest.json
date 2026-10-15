@@ -1,0 +1,97 @@
+[
+  {
+    "file": "assets/en-profile.webp",
+    "bytes": 46438,
+    "sha256": "4e6d41d0b9df9c9909434e958700e8c52afb6f3f20487491c2d83d4cf534dfb9"
+  },
+  {
+    "file": "assets/fr-attendance.webp",
+    "bytes": 82838,
+    "sha256": "15cb8194582c18a6f9290c90b64973d5ac5e0a636e2072a8558d10953bc8ed41"
+  },
+  {
+    "file": "assets/favicon.png",
+    "bytes": 2958,
+    "sha256": "7e5d620ddb969c2d0208d6933a18cc1c07c8c3706bc00afb0e40458f07b5d6e8"
+  },
+  {
+    "file": "assets/lucide-LICENSE.txt",
+    "bytes": 2004,
+    "sha256": "668dcc52803480e0a026b31140a4cae668772663cd764e5991d252eef03f98db"
+  },
+  {
+    "file": "assets/fr-profile.webp",
+    "bytes": 44464,
+    "sha256": "2cbbd6c2cf125a8ea78658e1200d523ec8f055201019279d44f80b6081fc28cb"
+  },
+  {
+    "file": "assets/en-attendance.webp",
+    "bytes": 85786,
+    "sha256": "cd259054c88cfedc94054a4ca4a3ae44e3b636a67dd81cb8a416de7603453e5d"
+  },
+  {
+    "file": "assets/ar-attendance.webp",
+    "bytes": 80504,
+    "sha256": "640d01d4e14f2dbcf3376270398bf7d45d9e918e64cdd2474a1d6a4d363421fe"
+  },
+  {
+    "file": "assets/fr-checkpoint.webp",
+    "bytes": 53858,
+    "sha256": "59559887f65727bb7ba336ff9aab03dffb93d8a312250ce2be4c78da8c0c2af7"
+  },
+  {
+    "file": "assets/social-preview.png",
+    "bytes": 68595,
+    "sha256": "368fadb8810043d680f3a8b0d3cbae3add4855d8e7c288f55a6582bcf9f857ec"
+  },
+  {
+    "file": "assets/app-icon.png",
+    "bytes": 76906,
+    "sha256": "59abdde81d267c1136077b5c0ddbb7fb07eb562f4ca956d8ba18ec9fb0e71940"
+  },
+  {
+    "file": "assets/ar-profile.webp",
+    "bytes": 42606,
+    "sha256": "6d207ceb2bd16f92b91fc7e7f82dea0de4b8564306b4205030ae076ee53e0c8a"
+  },
+  {
+    "file": "assets/en-checkpoint.webp",
+    "bytes": 47752,
+    "sha256": "7811649423b13b407c27b372fae56e8038ddc0af73fdb7663d135ec6d963425e"
+  },
+  {
+    "file": "assets/ar-checkpoint.webp",
+    "bytes": 47668,
+    "sha256": "f52c4b0c164116c268bc86aab5c8b79284ee1ee7cbc59c5a03daa4f0e25c7ab5"
+  },
+  {
+    "file": "assets/fonts/noto-sans-arabic-latin-wght-normal.woff2",
+    "bytes": 31416,
+    "sha256": "fed070abc960c5f214fcb02b7b178cdab751ef7facd79a899f571bc21d38b8f8"
+  },
+  {
+    "file": "assets/fonts/manrope-latin-wght-normal.woff2",
+    "bytes": 24836,
+    "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972"
+  },
+  {
+    "file": "assets/fonts/noto-sans-arabic-arabic-wght-normal.woff2",
+    "bytes": 165960,
+    "sha256": "ce85091f020920b65762b387b194ef59457ea5b25b760f2dcc35240a94bb8669"
+  },
+  {
+    "file": "assets/fonts/manrope-latin-ext-wght-normal.woff2",
+    "bytes": 15120,
+    "sha256": "3911b66d9f2e005a4b989223405d0e5032619c668597ba467cc76a23c8fffcfb"
+  },
+  {
+    "file": "assets/fonts/manrope-LICENSE.txt",
+    "bytes": 4383,
+    "sha256": "d826ab6583b12c26807d8716a545bdbbb672df04f48608a364ba9efdbe501c30"
+  },
+  {
+    "file": "assets/fonts/noto-sans-arabic-LICENSE.txt",
+    "bytes": 4380,
+    "sha256": "91053c23e8a0fe5fc9b5fdbe5ff74ceffd66f6f996c123f1a6ca4c23487c1fff"
+  }
+]
