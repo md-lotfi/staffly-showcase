@@ -18,7 +18,7 @@ The new Terms of Use, the website-specific policy additions and the translations
 
 If hosting changes from GitHub Pages, update privacy section 14 and the related provider link. Changes to the app, SDKs, analytics, contact channels or website forms can require policy changes. The website does not currently include analytics, tracking scripts, advertising, remote HR accounts or a form. GitHub may process hosting connection information under its policy; the site does not claim zero server logs.
 
-The website conversion does not publish these documents at the app's current policy URL, modify Play Console or automatically update app policy links. After the website is actually deployed, the owner can choose the appropriate live URLs in those services.
+The website is now live at https://staffly.raystate.com/. Canonical documents are `/privacy-policy/`, `/terms-of-use/` and `/subscription-terms/`, with matching `/fr/` and `/ar/` routes. App build configuration now points to these documents; already installed app versions require an update to receive the new URLs. Play Console and external service settings must be updated separately by the owner.
 
 ## Primary references checked
 

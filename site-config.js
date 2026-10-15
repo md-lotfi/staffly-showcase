@@ -2,7 +2,7 @@
  * Metadata/sitemap URLs are also written into HTML so crawlers need no JavaScript.
  * See README.md when changing the public origin or release status. */
 window.STAFFLY_SITE = Object.freeze({
-  publicOrigin: "https://md-lotfi.github.io/staffly-showcase/",
+  publicOrigin: "https://staffly.raystate.com/",
   storeUrl:
     "https://play.google.com/store/apps/details?id=com.raystate.staffly",
   contact: "contact@raystate.com",

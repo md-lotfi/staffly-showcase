@@ -59,3 +59,15 @@ its heading still animated. Switching reduced motion on cancelled the active
 animation and left the content visible. A fresh reduced-motion context had no
 animations. JavaScript syntax and static-page validation passed. Temporary test:
 `/tmp/staffly-showcase-browser/motion-check.mjs`.
+
+
+## Custom domain migration — 15 October 2026
+
+The owner confirmed the website is live at https://staffly.raystate.com/.
+All nine EN/FR/AR legal URLs returned HTTP 200 with the expected language and
+page title. The local publish tree now uses this domain for canonical and
+alternate links, structured data, sharing metadata, sitemap, robots and custom
+404 links. `CNAME` records the confirmed host. Relative internal navigation is
+unchanged and shared asset revision is v3. The static validator passed.
+These local changes still require a normal commit/push; no DNS or GitHub account
+settings were modified by this update.

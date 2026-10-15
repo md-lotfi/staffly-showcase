@@ -8,11 +8,11 @@ A complete English, French and Arabic product website made with **plain HTML, CS
 2. Commit the static conversion and push normally. Preserve the repository's published Lovable history; do not force-push.
 3. In GitHub, open **Settings → Pages → Build and deployment**.
 4. Choose **Deploy from a branch**, then **main** and **/ (root)**, and save.
-5. Once publishing succeeds, check **https://md-lotfi.github.io/staffly-showcase/**, including direct legal-page visits and Arabic navigation.
+5. Once publishing succeeds, check **https://staffly.raystate.com/**, including direct legal-page visits and Arabic navigation.
 
-`.nojekyll` serves the checked-in static files directly. No GitHub Actions build is required. See [GitHub's publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Publishing settings, DNS and a live deployment have not been changed by this conversion.
+`.nojekyll` serves the checked-in static files directly. No GitHub Actions build is required. See [GitHub's publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). The owner has published the site at the custom domain. These local changes do not alter GitHub repository settings or DNS.
 
-All internal links and assets are relative, including on nested legal pages. This supports the repository subdirectory and a future custom domain. **No CNAME is configured**, because a Staffly custom domain has not been supplied. Djouri is the structural reference, not Staffly's domain.
+All internal links and assets are relative, including on nested legal pages. This supports the repository subdirectory and a future custom domain. The confirmed custom domain is **staffly.raystate.com**, recorded in `CNAME`. Djouri remains the structural reference only.
 
 ### Change the public address or release availability
 
@@ -57,7 +57,7 @@ Test the site under `/staffly-showcase/` as well as `/`. See [release checks](re
 | `tools/` | Optional standard-library Python maintenance/validation helpers |
 | `404.html`, `sitemap.xml`, `robots.txt`, `.nojekyll` | Static hosting and discovery |
 
-Edit the HTML directly; there is no hidden generator or runtime template engine. Header/footer markup is repeated and must remain consistent across all 12 pages. After publication, bump the shared `?v=2` asset revision consistently across the HTML files when changing shared CSS/JavaScript to avoid stale combinations. Keep legal source text and corresponding HTML synchronized when editing. All visible marketing and legal content is present in HTML, not fetched from a data API.
+Edit the HTML directly; there is no hidden generator or runtime template engine. Header/footer markup is repeated and must remain consistent across all 12 pages. After publication, bump the shared `?v=3` asset revision consistently across the HTML files when changing shared CSS/JavaScript to avoid stale combinations. Keep legal source text and corresponding HTML synchronized when editing. All visible marketing and legal content is present in HTML, not fetched from a data API.
 
 Theme colors, spacing and motion tokens are centralized in `:root` in `styles.css`. Retain readable supporting text and comfortable touch targets. SVG icons are exported Lucide artwork, not an external runtime. See [asset provenance](assets/README.md).
 
